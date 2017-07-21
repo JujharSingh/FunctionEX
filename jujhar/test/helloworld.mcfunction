@@ -9,4 +9,4 @@ say Hello World!
 scoreboard players set @a test 1
 
 # Suffocates player if test is 1
-execute @a[score_test=1] ~ ~ ~ execute @p ~ ~ ~ tp ~ ~-10 ~
+execute @a[score_test=1,score_test_min=1] ~ ~ ~ execute @p ~ ~ ~ tp ~ ~-10 ~

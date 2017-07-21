@@ -1,13 +1,13 @@
 {
   "name": "functionex",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Minecraft command preprocessor!",
   "main": "index.js",
   "scripts": {
     "test": "node index.js test.fnex"
   },
   "author": "Jujhar Singh",
-  "license": "GPL",
+  "license": "GPL-3.0",
   "dependencies": {
     "mkdirp": "^0.5.1"
   },

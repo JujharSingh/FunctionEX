@@ -57,7 +57,7 @@ if(source && world) {
                         if(varcommand[2] == "==") {
                             var clength = varcommand[0].length + varcommand[1].length + varcommand[2].length + varcommand[3].length + 3;
 
-                            formattedline = "execute @a[score_"+varcommand[1]+"="+varcommand[3]+"] ~ ~ ~"+line.trim().substring(clength);
+                            formattedline = "execute @a[score_"+varcommand[1]+"="+varcommand[3]+",score_"+varcommand[1]+"_min="+varcommand[3]+"] ~ ~ ~"+line.trim().substring(clength);
                             files[scanningfunc] = files[scanningfunc] + formattedline;
                         } else if(varcommand[2] == ">") {
 
