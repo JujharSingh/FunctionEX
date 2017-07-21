@@ -67,7 +67,7 @@ if(source && target) {
                 for(filename in files) {
                     if (err) throw err;
 
-                    fs.writeFile(path.join(process.cwd(), author.toString(), project.toString(), filename.toString()+".mcfunction"), files[filename], (err) => {
+                    fs.writeFile(path.join(process.cwd(), author.toString(), project.toString(), filename.toString()+".mcfunction"), files[filename], function(err) {
                         if (err) throw err;
 
                         console.log("Successfully wrote to "+path.join(process.cwd(), author, project, filename+".mcfunction"));
