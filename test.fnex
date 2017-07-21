@@ -5,6 +5,13 @@ function helloworld {
     // Says Hello World!
     say Hello World!
 
-    // Kills the player (tp so they dont drop anything)
-    execute @p ~ ~ ~ tp ~ ~-100 ~
+    // Creates a variable named test
+    var test = 1
+
+    // Suffocates player if test is 1
+    ifvar test == 1 execute @p ~ ~ ~ tp ~ ~-10 ~
+}
+
+function main {
+    function jujhar:test/helloworld
 }

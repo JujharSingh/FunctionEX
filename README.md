@@ -1,6 +1,8 @@
 # FunctionEX
 ## Preprocessor for Minecraft functions
 
+[![Build Status](https://travis-ci.org/JujharSingh/FunctionEX.svg?branch=master)](https://travis-ci.org/JujharSingh/FunctionEX)
+
 Install: `npm install -g functionex`
 
 Usage: `fnex i <Function File>`
@@ -15,7 +17,7 @@ function helloworld {
     // Says Hello World!
     say Hello World!
 
-    // Kills the player
-    execute @p ~ ~ ~ tp ~ ~-100 ~
+    // Attempts to Suffocate the player
+    execute @p ~ ~ ~ tp ~ ~-10 ~
 }
 ```
