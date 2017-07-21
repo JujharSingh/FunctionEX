@@ -1,0 +1,10 @@
+@author jujhar
+@project test
+
+function helloworld {
+    // Says Hello World!
+    say Hello World!
+
+    // Kills the player (tp so they dont drop anything)
+    execute @p ~ ~ ~ tp ~ ~-100 ~
+}
