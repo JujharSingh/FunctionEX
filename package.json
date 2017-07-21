@@ -1,6 +1,6 @@
 {
   "name": "functionex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Minecraft command preprocessor!",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,9 @@
   },
   "bin": {
     "fnex": "index.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/JujharSingh/FunctionEX.git"
   }
 }
